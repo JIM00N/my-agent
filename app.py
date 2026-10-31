@@ -1,4 +1,7 @@
 import streamlit as st
+from dotenv import load_dotenv
+
+load_dotenv()
 
 page_1 = st.Page("page_1.py", title = '1 페이지', icon='🐱')
 page_2 = st.Page("page_2.py", title = '2 페이지')
